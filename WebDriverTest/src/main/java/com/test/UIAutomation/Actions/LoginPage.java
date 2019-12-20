@@ -60,7 +60,6 @@ public class LoginPage extends BaseTest{
      return    driver.findElement(titleText).getText();
 
     }
-
     /**
 
      * This POM method will be exposed in test case to login in the application
@@ -72,7 +71,6 @@ public class LoginPage extends BaseTest{
      * @return
 
      */
-
     public void loginToGuru99(String strUserName,String strPasword){
 
         //Fill user name
