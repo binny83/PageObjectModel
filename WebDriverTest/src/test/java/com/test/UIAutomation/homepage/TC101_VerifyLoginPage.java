@@ -48,6 +48,7 @@ public class TC101_VerifyLoginPage extends BaseTest{
 	    log.info("Enter username and password");
 	    // go the next page
 	    
+	    objLoginpage.loginButton();
 	  //Create Home Page object
 
 	    objHomePage = new HomePage(driver);

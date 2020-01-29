@@ -50,9 +50,12 @@ public class LoginPage extends BaseTest{
     public void clickLogin(){
 
             driver.findElement(login).click();
+           
 
     }
-
+    public void loginButton() {
+    	 driver.findElement(login).isDisplayed();
+    }
     //Get the title of Login Page
 
     public String getLoginTitle(){
